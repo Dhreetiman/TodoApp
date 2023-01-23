@@ -1,6 +1,5 @@
 # Todo App as a Single Page Application
 
-<img src="https://imgur.com/FJBGuEj.jpg" title="Todo App"/>
 
 The SPA with 5 pages (routes):
 
@@ -10,30 +9,6 @@ The SPA with 5 pages (routes):
 - A Dashboard page which shows authenticated/registered user todos and actions
 - Notfound page
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-
-### Demo
-
-Online Deployment of this project is available at [Todo App](https://tv2z-app.herokuapp.com/).
-
-You can use below credentials to test pagination and search functions of the app. The database is populated by fakerjs library.
-
-```
-email: john@gmail.com
-password: 123456
-```
-
-### Getting Started
-
-To get started you can simply clone the repo and install the dependencies in the root folder
-
-| Steps   |with [NPM](https://www.npmjs.com/) |
-| ------- | --------------------------------- | 
-| Install |`npm install`                      |
-| Run     |`npm run dev`                      |
-
-Runs the app in the development mode.<br />
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ### Directory Layout and Tree
 
@@ -202,38 +177,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 - pagination: stores pagination states and items
 
 ```
-{
-  auth: {
-    token: null,
-    isAuthenticated: false,
-    loading: false,
-    user: null
-  },
-  todo: {
-    todos: [],
-    todo: {},
-    loading: false,
-    error: {}
-  },
-  tag: {
-    tags: [],
-    loading: false,
-    error: {}
-  },
-  search: {
-    isActive: null,
-    searchTerm: '',
-    filtered: []
-  },
-  pagination: {
-    activePage: null,
-    pageSize: 10,
-    pageOfItems: [],
-    pageReset: true
-  }
-}
-
-```
 
 #### Api Calls
 
@@ -265,10 +208,6 @@ Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
 ```
 
-##### NOTE: Local Storage
-
-JWT token for authentication is stored in the local storage of the browser and added to header of the request by setAuthToken function.
-
 ### Author
 
-- [salih18](https://github.com/salih18)
+- [Dhreetiman](https://github.com/Dhreetiman)

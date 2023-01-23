@@ -9,9 +9,9 @@ const LatestNews = () => {
       <Container>
         <Row>
           <Col className="col-sm-12 ">
-            <span className="latest-news-badge">Latest News</span>
+            <span className="latest-news-badge">Namaste!</span>
             <span className="latest-news-text">
-              TV2Z Todo App has been launched in Europe with new styles.
+              Welcome on ToDo App
             </span>
           </Col>
         </Row>

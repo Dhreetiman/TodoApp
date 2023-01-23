@@ -4,9 +4,7 @@ const auth = require("../../middleware/auth");
 
 const Tag = require("../../models/Tag");
 
-// @route    GET api/tags
-// @desc     Get all tags
-// @access   Private
+
 router.get("/", auth, async (req, res) => {
   try {
     const tags = await Tag.find();

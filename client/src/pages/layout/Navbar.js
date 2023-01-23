@@ -12,12 +12,9 @@ const Header = () => {
     <Navbar className="todo-app-navbar" collapseOnSelect expand="lg">
       <Container>
         <Navbar.Brand as={Link} to="/">
-          <img
-            className="tv2z-logo"
-            alt="TV2Z"
-            src="https://www.tv2z.com/wp-content/uploads/2017/11/TV2Z_logo_web_dark.svg"
-            data-src="https://www.tv2z.com/wp-content/uploads/2017/11/TV2Z_logo_web_dark.svg"
-          />
+          <div
+            className="logo"
+          >TODO</div>
         </Navbar.Brand>
         <Navbar.Toggle aria-controls="responsive-navbar-nav" />
 
